@@ -1,32 +1,36 @@
 Partlist
 
-Exported from xbee-usb.sch at 2/1/2018 2:09 PM
+Exported from xbee-usb.sch at 2/15/2018 2:13 PM
 
 EAGLE Version 7.5.0 Copyright (c) 1988-2015 CadSoft
 
 Assembly variant: 
 
-Part     Value          Device             Package        Library                 Sheet
+Part     Value          Device             Package        Library  Sheet
 
-A1       XB24CZ7WIT-004 ULINK_XBEEOVALPADS XBEE_OVAL_PADS _jc                     1
-C1       10nF           C-USM0805          M0805          _jc                     1
-C2       47pF           C-USM0805          M0805          _jc                     1
-C3       47pF           C-USM0805          M0805          _jc                     1
-C4       100nF          C-USM0805          M0805          _jc                     1
-C5       100nF          C-USM0805          M0805          _jc                     1
-C6       4.7uF          C-USM0805          M0805          _jc                     1
-C7       4.7uF          C-USM0805          M0805          _jc                     1
-C8       4.7uF          C-USM0805          M0805          _jc                     1
-C9       100nF          C-USM0805          M0805          _jc                     1
-D1       ASSOC          LEDD0805           D0805          _jc                     1
-D2       RSSI           LEDD0805A          D0805A         _jc                     1
-JP1      USB            UP2-AH-TH          UP2-AH-X-TH    _jc                     1
-JP2                     M03LOCK            1X03_LOCK      SparkFun                1
-L1       Ferrite Bead   INDUCTORM0805      M0805          _jc                     1
-R1       27             R-US_M0805         M0805          _jc                     1
-R2       27             R-US_M0805         M0805          _jc                     1
-R3       1K             R-US_M0805         M0805          _jc                     1
-R4       1K             R-US_M0805         M0805          _jc                     1
-U1       FT231X         FT231XSSOP20-W     SSOP20-W       _jc                     1
-U2       MCP1700        MCP1700SOT23-W     SOT23-W        _jc                     1
-X1       ZX62D-B-5PA8   ZX62D-B-5PA8       ZX62D-B-5PA8   zx62d-b-5pa8-oshpark_10 1
+A1       XB24CZ7WIT-004 ULINK_XBEEOVALPADS XBEE_OVAL_PADS _jc      1
+C1       10nF           C-USM0805          M0805          _jc      1
+C2       47pF           C-USM0805          M0805          _jc      1
+C3       47pF           C-USM0805          M0805          _jc      1
+C4       100nF          C-USM0805          M0805          _jc      1
+C5       100nF          C-USM0805          M0805          _jc      1
+C6       4.7uF          C-USM0805          M0805          _jc      1
+C7       4.7uF          C-USM0805          M0805          _jc      1
+C8       4.7uF          C-USM0805          M0805          _jc      1
+C9       100nF          C-USM0805          M0805          _jc      1
+D1       ASSOC          LEDD0805           D0805          _jc      1
+D2       RSSI           LEDD0805A          D0805A         _jc      1
+D3       RX             LEDD0805           D0805          _jc      1
+D4       TX             LEDD0805A          D0805A         _jc      1
+JP1      USB            UP2-AH-TH          UP2-AH-X-TH    _jc      1
+L1       Ferrite Bead   INDUCTORM0805      M0805          _jc      1
+R1       27             R-US_M0805         M0805          _jc      1
+R2       27             R-US_M0805         M0805          _jc      1
+R3       1K             R-US_M0805         M0805          _jc      1
+R4       1K             R-US_M0805         M0805          _jc      1
+R5       1K             R-US_M0805         M0805          _jc      1
+R6       1K             R-US_M0805         M0805          _jc      1
+S1       Reset          10-XXOCT           B3F-10XXOCT    _jc      1
+SJ1      Reset Select   SJ2W               SJ_2           jumper   1
+U1       FT231X         FT231XSSOP20-W     SSOP20-W       _jc      1
+U2       MCP1700        MCP1700SOT23-W     SOT23-W        _jc      1
