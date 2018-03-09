@@ -1,6 +1,6 @@
 Partlist
 
-Exported from xbee-usb.sch at 2/15/2018 2:13 PM
+Exported from xbee-usb.sch at 3/8/2018 5:17 PM
 
 EAGLE Version 7.5.0 Copyright (c) 1988-2015 CadSoft
 

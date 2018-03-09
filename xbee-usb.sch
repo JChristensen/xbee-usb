@@ -33341,9 +33341,12 @@ Source: http://www.osram.convergy.de/</description>
 <sheets>
 <sheet>
 <plain>
-<text x="175.26" y="30.48" size="3.81" layer="91">XBee USB Dongle</text>
+<text x="175.26" y="30.48" size="3.81" layer="91" ratio="10">XBee USB Dongle</text>
 <text x="175.26" y="25.4" size="2.54" layer="91">by Jack Christensen</text>
 <text x="264.16" y="7.62" size="2.54" layer="91">v1.0</text>
+<text x="17.78" y="22.86" size="3.81" layer="91" ratio="10">CC BY-SA</text>
+<text x="17.78" y="15.24" size="2.1844" layer="91" ratio="10">XBee USB Dongle by Jack Christensen is licensed
+under CC BY-SA 4.0 http://creativecommons.org/licenses/by-sa/4.0/</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -33420,7 +33423,7 @@ Source: http://www.osram.convergy.de/</description>
 <instance part="P+2" gate="VCC" x="200.66" y="96.52"/>
 <instance part="P+5" gate="1" x="48.26" y="154.94"/>
 <instance part="P+4" gate="1" x="96.52" y="96.52"/>
-<instance part="LOGO1" gate="G$1" x="165.1" y="33.02"/>
+<instance part="LOGO1" gate="G$1" x="53.34" y="25.4"/>
 <instance part="S1" gate="1" x="160.02" y="121.92" smashed="yes" rot="R180">
 <attribute name="NAME" x="149.86" y="118.11" size="1.778" layer="95"/>
 <attribute name="VALUE" x="147.955" y="115.57" size="1.778" layer="96"/>
@@ -33771,4 +33774,10 @@ Source: http://www.osram.convergy.de/</description>
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
